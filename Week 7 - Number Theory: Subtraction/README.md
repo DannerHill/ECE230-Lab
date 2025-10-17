@@ -13,7 +13,8 @@ In this lab you've learned the basics of number theory as it relates to subtract
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
 
-##Lab Summary
+###Lab Summary
+
 In this lab I learned how subtraction works. A half subtractor gives a result bit and a borrow when subtracting one bit from another. For multi-bit subtract, one's complement does A + (bit-flipped B) and, if a carry pops out, adds it back to the LSB, which makes it a bit awkard and creates the looping problem so I had to create more adders just for a 4 bit addition. Two's compliment fixes that by flipping the bits and adding one, so addition and subtraction use the same adder, but the most negative value can't be negated within the same bit width. I then verified that it works on the Basys 3 by flipping the switches and making sure the correct led's are outputed.
 
 ## Lab Questions
